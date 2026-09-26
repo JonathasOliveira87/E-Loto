@@ -1,0 +1,6 @@
+Arduino_GFX_Library
+LVGL 9.x
+Adafruit PN532
+Adafruit GFX (dependencia)
+LittleFS (ESP32)
+WiFi / HTTPClient / FreeRTOS / time (ESP32)

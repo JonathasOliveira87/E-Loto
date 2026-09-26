@@ -1,0 +1,28 @@
+# Dependências (reconstruídas com "npm install")
+node_modules/
+**/node_modules/
+ 
+# Banco de dados (dados locais/reais, não fazem parte do código)
+eloto-backend/eloto.db
+eloto-backend/eloto.db-shm
+eloto-backend/eloto.db-wal
+ 
+# Build do front (é gerado por "npm run build"; o que importa é o src)
+eloto-frontend/dist/
+ 
+# Zips soltos e afins
+*.zip
+ 
+# Variáveis de ambiente / segredos
+.env
+.env.local
+ 
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ 
+# Logs do npm
+npm-debug.log*
+ 
